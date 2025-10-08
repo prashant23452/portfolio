@@ -1,16 +1,27 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
 
+import Navbar from "./component/Navbar";
+import Footer from "./component/Footer";
+import About from './Page/About';
+import Skills from './Page/Skills';
+import Projects from './Page/Projects';
+import Achievements from './Page/Achievements';
+import BackgroundPattern from "./BackgroundPattern";
 function App() {
   return (
-    <Router>
-      <Navbar/>
-      <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/' element={<About/>}/>
-        <Route path='/' element={<Home/>}/>
-      </Routes>
-    </Router>
+    <div>
+      <BackgroundPattern />
+      <div className="mt-4 mx-40 bg-gray">
+        
+        <Navbar/>
+        <About/>
+        
+      </div>
+      <Skills/>
+        <Projects/>
+        <Achievements/>
+        <Footer/>
+    </div>
+    
   );
 }
 
