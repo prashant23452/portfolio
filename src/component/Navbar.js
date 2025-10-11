@@ -13,8 +13,8 @@ export default function Navbar() {
                 <div className='flex gap-3'>
                     <Link className='text-gray-700 text-lg cursor-pointer font-semibold hover:text-[#3c65ff]' to="about" smooth={true} duration={500}>About me</Link>
                     <Link className='text-gray-700 text-lg cursor-pointer font-semibold hover:text-[#3c65ff]' to="skills" smooth={true} duration={500}>Skills</Link>
-                    <Link className='text-gray-700 text-lg cursor-pointer font-semibold hover:text-[#3c65ff]' to="services" smooth={true} duration={500}>Projects</Link>
-                    <Link className='text-gray-700 text-lg cursor-pointer font-semibold hover:text-[#3c65ff]' to="contact" smooth={true} duration={500}>Experience</Link>
+                    <Link className='text-gray-700 text-lg cursor-pointer font-semibold hover:text-[#3c65ff]' to="projects" smooth={true} duration={500}>Projects</Link>
+                    <Link className='text-gray-700 text-lg cursor-pointer font-semibold hover:text-[#3c65ff]' to="experience" smooth={true} duration={500}>Experience</Link>
                     <Link className='text-gray-700 text-lg cursor-pointer font-semibold hover:text-[#3c65ff]' to="contact" smooth={true} duration={500}>Achievements</Link>
                 </div>
                 <div className='flex gap-1'>

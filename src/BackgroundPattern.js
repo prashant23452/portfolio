@@ -1,6 +1,6 @@
 export default function BackgroundPattern() {
   return (
-    <div className="absolute inset-0 -z-10 overflow-hidden">
+    <div className="fixed inset-0 -z-10 overflow-hidden">
       {/* Dotted Grid */}
       <div
         className="absolute inset-0 bg-[radial-gradient(circle,_rgba(0,0,0,0.05)_1px,_transparent_1px)] 

@@ -6,6 +6,8 @@ import Skills from './Page/Skills';
 import Projects from './Page/Projects';
 import Achievements from './Page/Achievements';
 import BackgroundPattern from "./BackgroundPattern";
+import Mid from "./Page/Mid";
+import Experience from "./Page/Experience";
 function App() {
   return (
     <div>
@@ -17,9 +19,11 @@ function App() {
         
       </div>
       <Skills/>
-        <Projects/>
-        <Achievements/>
-        <Footer/>
+      <Projects/>
+      <Mid/>
+      <Experience/>
+      <Achievements/>
+      <Footer/>
     </div>
     
   );
