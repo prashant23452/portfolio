@@ -8,7 +8,7 @@ function Experience() {
       </div>
       <div className='relative flex w-full justify-between mt-20'>
         <div className='flex w-full justify-between mr-10 '>
-          <div className='absolute h-24 w-26 bg-gray-100 rounded-full flex justify-center items-center'>
+          <div className='absolute h-24 w-26 bg-gray-100 rounded-full flex justify-center items-center'> 
             <p className='text-2xl font-bold text-gray-700'>2015</p>
           </div>
           <div className='text-left pl-30'>

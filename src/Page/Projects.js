@@ -1,6 +1,6 @@
 import React from 'react'
 
-
+ 
 function Projects() {
   return (
     <section id="projects" className=' mt-50 mx-40'>
