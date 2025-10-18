@@ -8,6 +8,7 @@ import Achievements from './Page/Achievements';
 import BackgroundPattern from "./BackgroundPattern";
 import Mid from "./Page/Mid";
 import Experience from "./Page/Experience";
+import Education from "./Page/Education";
 function App() {
   return (
     <div>
@@ -23,6 +24,7 @@ function App() {
       <Mid/>
       <Experience/>
       <Achievements/>
+      <Education/>
       <Footer/>
     </div>
     
